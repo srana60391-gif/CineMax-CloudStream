@@ -70,10 +70,10 @@ class ExampleProvider : MainAPI() {
                 videoUrl,
                 mainUrl,
                 Qualities.P480,
-                emptyMap(),
+                emptyMap<String, String>(),
                 null,
                 ExtractorLinkType.VIDEO,
-                emptyList()
+                emptyList<AudioFile>()
             )
         )
         return true
