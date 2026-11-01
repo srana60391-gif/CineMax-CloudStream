@@ -43,6 +43,16 @@ jobs:
         with:
           packages: ''
 
+      - name: Diagnose JitPack
+        run: |
+          for url in \
+            "https://jitpack.io/com/github/recloudstream/gradle/-SNAPSHOT/maven-metadata.xml" \
+            "https://jitpack.io/com/github/recloudstream/gradle/-SNAPSHOT/gradle--32895aedb6-1.pom" \
+            "https://jitpack.io/com/github/recloudstream/gradle/gradle/-SNAPSHOT/gradle--32895aedb6-1.jar"
+          do
+            curl -L -sS -o /dev/null -w "%{http_code} %{url_effective}\n" "$url"
+          done
+
       - name: Build Plugins
         run: |
           cd $GITHUB_WORKSPACE/src
