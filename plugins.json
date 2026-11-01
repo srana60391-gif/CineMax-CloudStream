@@ -1,0 +1,23 @@
+[
+    {
+        "fileHash": "sha256-cd541725bf22ad08ff417b10d99e918fac6108dec71ce440ab1a0228da6ed3b5",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/srana60391-gif/CineMax-CloudStream",
+        "fileSize": 2248,
+        "status": 3,
+        "authors": [
+            "CineMax"
+        ],
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "Cartoon"
+        ],
+        "version": 1,
+        "internalName": "ExampleProvider",
+        "description": "CineMax - Movies, Anime and Series",
+        "url": "https://raw.githubusercontent.com/srana60391-gif/CineMax-CloudStream/builds/ExampleProvider.cs3",
+        "name": "ExampleProvider"
+    }
+]

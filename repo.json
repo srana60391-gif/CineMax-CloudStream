@@ -1,0 +1,8 @@
+{
+  "name": "CineMax",
+  "description": "CineMax - Movies, Anime and Series",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/srana60391-gif/CineMax-CloudStream/builds/plugins.json"
+  ]
+}
